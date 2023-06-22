@@ -1,45 +1,123 @@
 *{
     margin: 0;
     padding: 0;
-   
+   box-sizing: border-box;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+Decol:wght@400;700&display=swap');
 
 body{
     background-color: #E6A5AC;
+    font-family: 'Kaisei Decol', serif;
 }
 
-.main__body{
-    width: 70%;
-    height: auto;
-    margin: 75px auto 0 auto;
-    background-color: #F2E7EA;
-}
-
-.main__container{
+.main-body{
     width: 80%;
-    height: auto;
+    height: 1800px;
+    margin: 10% 0 auto 10%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+.container{
     margin: 0 auto;
-    
+    width: 80%;
     
 }
 
 header{
-    
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 3fr 1fr 1fr 1fr;
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
-    justify-items: center;
 }
 
+.header-menu{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: #544342;
+}
 
-.product{
+.header-menu:hover{
+    color: #ff5c58;
+}
+
+.logo{
+    margin-left: 10%;
+}
+
+.loc{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
     
-    display: grid;
-    grid-area: ;
 }
 
-.product__info{
-    width: 100px;
-    height: 100px;
-    border: 1px solid black;
+.sub-header{
+    margin-top: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10%;
+    
+}
+
+.sub-header-item{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: #544342;
+}
+
+.sub-header-item:hover{
+    color: #ff5c58;
+}
+
+.banner{
+    margin-top: 30px;
+    width: 100%;
+    height: 300px;
+    border: 1px solid #ff5c58;
+    background: url(css/banner.jpg);
+    background-size: 100% 350px;
+    
+}
+
+.pause-text{
+    margin-top: 5%;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 300;
+    letter-spacing: 2;
+    color: #544342;
+}
+
+.offers{
+    margin-top: 30px;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.offer-items{
+    width: 250px;
+    height: 300px;
+    border: 1px solid #ff5c58;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    background-color: #fcd2d1;
+}
+
+.new-product{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
 }
