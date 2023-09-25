@@ -55,6 +55,16 @@ p {
     color: rgb(185, 184, 184);
 }
 
+strong {
+    color: #817271;
+    font-size: 12px;
+
+    background-color: transparent;
+    text-decoration: none;
+    
+    display: none;
+}
+
 /* HEADER */
 
 .navigation {
@@ -70,6 +80,18 @@ p {
     font-size: 32px;
     font-weight: 600;
     color: #FF9999;
+    text-decoration: underline;
+
+    background-color: transparent;
+    border: none;
+    font-family: 'Bacasime Antique', serif;
+
+    cursor: pointer;
+
+
+    display: flex;
+    align-items: center;
+    gap: 5px;
 }
 
 .mobile-logo {
@@ -164,6 +186,11 @@ p {
     font-weight: 600;
     color: #fff;
 }
+
+.new{
+    cursor: pointer;
+}
+
 
 .main-btn {
     margin-top: 30px;
@@ -488,7 +515,7 @@ footer {
 
 }
 
-.media h4{
+.media h4 {
     font-size: 24px;
 }
 
@@ -525,19 +552,19 @@ footer {
 }
 
 
-.contacts h2{
+.contacts h2 {
     color: #544342;
     font-size: 24px;
     margin-bottom: 15px;
 }
 
-.contact-links{
+.contact-links {
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
 
-.contact-links a{
+.contact-links a {
     text-decoration: none;
     color: #544342;
     font-size: 16px;
@@ -546,12 +573,12 @@ footer {
     transition: .2s linear;
 }
 
-.contact-links p{
+.contact-links p {
     color: #7b6d6d;
 
 }
 
-.contact-links a:hover{
+.contact-links a:hover {
 
     color: aquamarine;
 }

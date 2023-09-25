@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>YEPPEN</title>
     <link rel="stylesheet" href="yeppen.css">
+    <script src="jq.js"></script>
 </head>
 
 <body>
@@ -14,13 +15,13 @@
         <div class="container">
 
             <nav class="navigation">
-                <div class="logo">YEPPEN</div>
+                <button class="logo" id="logo">YEPPEN <strong id="sub-logo">professional skin care</strong></button>
                 <div class="mobile-logo">Y//N</div>
 
 
                 <div class="nav-icons">
                     <input class="search" type="search" placeholder="Search">
-                    <a href="#"><img src="css/heart.png" alt=""></a>
+                    <a href="#"><img src="css/heart.png" alt="" id="heart"></a>
                     <a href="#"><img src="css/cart.png" alt="" width="22px"></a>
                 </div>
 
@@ -34,8 +35,8 @@
                 <div class="container">
                     <div class="main-content">
                         <p>revoluton in skin care</p>
-                        <h1>explore the <span style="color:  #d53f58;">new</span> age of beauty</h1>
-                        <button class="main-btn">read more</button>
+                        <h1>explore the <span style="color:  #d53f58;" class="new">new</span> age of beauty</h1>
+                        <button class="main-btn" id="readmore">read more</button>
                     </div>
                 </div>
             </div>
@@ -232,13 +233,13 @@
                     </div>
                 </div>
                 <div class="footer-item contacts">
-                    <h2>Напиши нам</h2>
+                    <h2>Contact us</h2>
 
                     <div class="contact-links">
                         <a href="#">shop@beautybomb.ru</a>
                         <a href="#">8 (800) 600-27-85</a>
                         <a href="#">+7 (499) 110-56-25</a>
-                        <p> Beauty Bomb © 2018</p>
+                        <p> Yeppen © 2018</p>
                     </div>
 
                 </div>
@@ -246,6 +247,10 @@
         </div>
     </footer>
 
+
+    
+
+    <script src="script.js"></script>
 </body>
 
 </html>
